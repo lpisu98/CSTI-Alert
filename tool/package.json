@@ -1,0 +1,24 @@
+{
+    "name": "csti-detection-tool",
+    "version": "1.0.0",
+    "description": "A tool to detect Client-Side Template Injection vulnerabilities.",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "keywords": [
+        "csti",
+        "security",
+        "scanner",
+        "playwright"
+    ],
+    "author": "CSTI-Detection-Tool Community",
+    "license": "ISC",
+    "dependencies": {
+        "argparse": "^2.0.1",
+        "playwright": "^1.42.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
